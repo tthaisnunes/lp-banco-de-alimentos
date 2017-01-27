@@ -1,0 +1,211 @@
+// Desktop
+@media (max-width: 1024px) {
+	// .what-we-do
+	.content-icon {
+		height: 140px;
+		width: 100%;
+	}
+	.content-icon img {
+		margin: 20px auto;
+		display: block;
+	}	
+	
+
+	// .second-banner
+	.second-banner h2 {
+		margin: 10px 0 10px;
+	}
+
+
+	// .donate
+	.donate h1 {
+		font-size: 43px;
+	}
+
+	.donate .paypal img,
+	.donate .pagueseguro img {
+		padding: 12px 0px;
+	}
+	.donate .pagueseguro, 
+	.donate .paypal {
+		height: 100px;
+	}
+	.donate h4 img {
+		width: 40px;
+	}
+	.donate h4 {
+		line-height: 41px;
+		font-size: 15px;
+	}
+	.content-info-donate {
+		width: 90%;
+	}	
+
+	
+	// .wast
+	.obs {
+		left: 0px;
+	}
+	
+
+	//general
+	br {
+		display: none;
+	}
+}
+
+
+// Tablet
+@media (max-width: 768px) {
+	// wast
+	.item-wast {
+		min-height: 427px;
+	}
+
+	// general
+	.pagueseguro, 
+	.paypal {
+		width: 97px;
+		margin: 26px 10px;
+	}	
+}
+
+// Celphone
+@media (max-width: 500px) { 
+	// .content-header-2
+	.content-header-2 h1 {
+		font-size: 27px;
+		padding-top: 30px;
+	}
+	.content-header-2 h1 span {
+		font-weight: 300;
+	}
+
+
+	// .what-we-do
+	.what-we-do h3,
+	.what-we-do p:not(.subtitle) {
+		text-align: center;
+	}
+	.row .content-arrow {
+		background-position: center bottom 0px;
+		padding-bottom: 30px;
+		background-image: url(../images/arrow-down.svg);
+		background-size: 30px;
+	}
+
+	// .second-banner
+	.second-banner h2 {
+		text-align: center;
+		font-size: 30px;
+		margin: 20px;
+	}
+
+
+	// .waste
+	.item-wast {
+		min-height: 400px;
+	}
+	.item-wast h4 span {
+		font-size: 44px;
+	}
+
+
+	// .donate
+	.donate h4 img {
+		display: block;
+		width: 95%;
+		padding: 0px 36%;
+	}
+
+
+	// footer
+	footer p {
+		line-height: 20px;
+	}
+
+
+	// .bar-donate
+	.bar-donate nav {
+		width: 100%;
+	}
+	.bar-donate {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		-webkit-box-shadow: 0px 0px 24px -5px rgba(97,97,97,0.32);
+		-moz-box-shadow: 0px 0px 24px -5px rgba(97,97,97,0.32);
+		box-shadow: 0px 0px 24px -5px rgba(97,97,97,0.32);
+		height: auto;
+	}
+	.bar-donate nav {
+		height: auto;
+		background-color:white;
+	}
+	.bar-donate .info-donate {
+		width: 100%;
+		text-align:center;
+	}
+	.bar-donate nav p span {
+		text-align: center;
+		display: inline-block;
+		width: 100%;
+	}
+	.bar-donate .content-info-donate {
+		width: 100%;
+	}
+	.bar-donate .container-btn-donate {
+		width: 100%;
+		float: left;
+	}
+	.bar-donate.row {
+		margin-bottom: 0; 
+	}
+	.bar-donate .pagueseguro, 
+	.bar-donate .paypal {
+		width: 42%;
+	}
+	.bar-donate .container-btn-donate span {
+		margin: 0 4%;
+	}
+	.bar-donate .row {
+		margin-bottom: 0;
+	}
+
+
+	//general
+	.pagueseguro, 
+	.paypal{
+		margin: 26px 0px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+
+	
+	//Section thak-you-page
+	.section-thank-you-page nav .brand-logo {
+		width: auto;
+	}
+	.section-thank-you-page .section-desc-user p {
+		width: 292px;
+	}
+	.section-thank-you-page .img-banner .img-share-facebook {
+		position: absolute;
+		top: 10%;
+		left: 25%;
+		width: 51%;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

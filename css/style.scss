@@ -1,0 +1,272 @@
+// .what-we-do
+.content-icon {
+	display: inline-block;
+	width: 30%;
+	float: left;
+	height: 100px;
+}
+.content-icon img {
+	margin: 20px auto;
+}
+.content-arrow {
+	background-image: url(../images/arrow-left.svg);
+	background-repeat: no-repeat;
+	background-position: center right 20px;
+}
+
+
+// .second-banner
+.second-banner {
+	border: solid 1px #cdcdcd;
+	border-radius: 13px;
+	padding: 25px 15px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.second-banner .row {
+	margin-bottom:0;
+}
+.second-banner h2 {
+	margin: 60px 0 60px;
+}
+.second-banner img {
+	display: block;
+	margin:0 auto;
+}
+
+
+// .why-donate
+.why-donate img{
+	margin-top: 20px;
+}
+
+
+// .waste
+.item-wast {
+	border: solid 1px #cdcdcd;
+	border-radius: 13px;
+	min-height: 377px;
+	position: relative;
+	margin: 25px 0;
+	padding: 10px;
+}
+.item-wast h4 span {
+	font-size: 66px;
+	display: block;
+	line-height: 1;
+	color: $dark-green;
+	text-align: center;
+	font-weight: 300;
+}
+.item-wast h4 {
+	font-size: 16px;
+	font-weight: 300;
+	color: $dark-green;
+}
+.item-wast p {
+	margin-top:10px;
+}
+.content-icon-2 img {
+	margin: 30px auto;
+	display: block;
+}
+.content-icon-2 {
+	height:60px;
+}
+.obs {
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	width: 100%;
+	font-size: 11px;
+}
+
+
+// .social-exclusion
+.social-exclusion h3{
+	text-align:center;
+	text-align: center;
+	text-decoration: line-through;
+	color:#373e42;
+}
+
+// .donate
+.donate {
+	margin-top: 50px;
+}
+.donate h1 {
+	font-size: 63px;
+	font-weight: 300;
+	color: $dark-green;
+	margin: 0 0 20px;
+}
+.donate .subtitle-2 {
+	font-size: 21px;
+	color: #373e42;
+	line-height: 25px;
+}
+.donate h4 img {
+	float: left;
+	margin: 0 10px;
+}
+.donate h4 {
+	color: #373e42;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 60px;
+	margin: 10px 0 10px;
+}
+.donate h4 strong {
+	color: #007b00;
+}
+.donate .pagueseguro,
+.donate .paypal
+{
+	width: 100%;
+	height: 120px;
+	color: #444;
+}
+.donate .paypal img {
+	width: 100%;
+	padding: 12px 30px;
+}
+.donate .pagueseguro img {
+	width: 100%;
+	padding: 12px 14px;
+}
+
+
+// .footer
+footer {
+	background: #f2f2f2;
+	padding: 10px;
+}
+footer p {
+	line-height: 40px;
+	margin-bottom: 0;
+}
+.obs-footer {
+	font-size:12px;
+	margin-top: 50px;
+}
+.obs-footer strong{
+	color: $dark-green;
+}
+
+
+// .bar-donate
+.content-info-donate {
+	width: 86%;
+	float: right;
+}
+
+
+// modal
+#modal1,
+#modal2 {
+  background-color: white;
+}
+#modal1 img,
+#modal2 img {
+  margin: 0px auto 20px;
+  display: block;
+  max-width: 210px;
+}
+#modal1 .img-modal,
+#modal2 .img-modal {
+  max-width: 150px;
+}
+#modal1 ul,
+#modal2 ul {
+  width: 100%;
+  display: block;
+  max-width: 300px;
+  margin: 0 auto;
+}
+#modal1 ul li,
+#modal2 ul li {
+  width: 30%;
+  display: inline-block;
+  margin-right: 2%;
+}
+#modal1 ul li div,
+#modal2 ul li div {
+  width: 100%;
+  text-align: center;
+  color: #489225;
+}
+#modal1 form,
+#modal2 form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+#modal1 form input[type=image],
+#modal2 form input[type=image] {
+  margin: 0 auto;
+  display: block;
+}
+#modal1 .modal-footer,
+#modal2 .modal-footer {
+  background-color: white;
+}
+
+
+// Section thank-you-page
+.section-thank-you-page .img-banner img {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  margin-top: -50px;
+}
+.section-thank-you-page nav {
+  background-color: transparent;
+  color: #919191;
+  box-shadow: none;
+  position: relative;
+}
+.section-thank-you-page header .content-padding-top {
+  padding-top: 0;
+}
+.section-thank-you-page nav .brand-logo {
+  background: white;
+}
+.section-thank-you-page .brand-logo {
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.51);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.51);
+}
+.section-thank-you-page .img-banner {
+  position: relative;
+}
+.section-thank-you-page .img-banner .img-share-facebook {
+  position: absolute;
+  top: 33%;
+  left: 33%;
+  width: 33%;
+  margin: 0 auto;
+}
+.section-thank-you-page .section-desc-user {
+  position: relative;
+  min-height: 250px;
+}
+.section-thank-you-page .section-desc-user p {
+  position: absolute;
+  top: 30px;
+  width: 392px;
+  height: 147px;
+  font-family: Lato;
+  font-size: 21px;
+  line-height: 24px;
+  color: #444;
+}
+.section-thank-you-page .section-desc-user p img {
+  max-height: 25px;
+  margin-bottom: -6px;
+}
+.section-thank-you-page footer {
+  float: left;
+  width: 100%;
+}
+
+
